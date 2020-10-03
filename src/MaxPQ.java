@@ -11,6 +11,7 @@ public class MaxPQ<Key extends Comparable<Key>>
      * Create new empty max priority queue.
      * Useful if inserting one by one, where each element
      * is inserting at the end and "swims" up into place.
+     *
      * @param max maximum size of queue
      */
     public MaxPQ(int max)
@@ -22,6 +23,7 @@ public class MaxPQ<Key extends Comparable<Key>>
      * Creates new max priority queue from existing array.
      * Takes an existing array and "sinks" each parent into
      * place decrementing from the last parent.
+     *
      * @param a array to create maxpq from
      */
     public MaxPQ(Key[] a)
@@ -39,6 +41,7 @@ public class MaxPQ<Key extends Comparable<Key>>
      * Inserts a new item into the maxpq.
      * First adds the item to the end of the queue
      * then swims the item up into position.
+     *
      * @param v item to insert
      */
     public void insert(Key v)
@@ -51,6 +54,7 @@ public class MaxPQ<Key extends Comparable<Key>>
      * Deletes the root of the maxpq.
      * First swaps last item with root
      * then sinks the item down into position.
+     *
      * @return item at root
      */
     public Key delMax()
@@ -64,6 +68,7 @@ public class MaxPQ<Key extends Comparable<Key>>
 
     /**
      * Swims item up into position.
+     *
      * @param k index to swim up
      */
     private void swim(int k)
@@ -77,6 +82,7 @@ public class MaxPQ<Key extends Comparable<Key>>
 
     /**
      * Sinks item down into position.
+     *
      * @param k index of item to sink down
      */
     private void sink(int k)
@@ -94,6 +100,7 @@ public class MaxPQ<Key extends Comparable<Key>>
     /**
      * Sinks parents in a decrementing order.
      * Orders an array into a max heap.
+     *
      * @param a array to heapify
      */
     private void heapify(Key[] a)
@@ -106,6 +113,7 @@ public class MaxPQ<Key extends Comparable<Key>>
 
     /**
      * Checks to see if the maxpq is empty.
+     *
      * @return true if empty
      */
     public boolean isEmpty()
@@ -115,6 +123,7 @@ public class MaxPQ<Key extends Comparable<Key>>
 
     /**
      * Returns size of maxpq.
+     *
      * @return size as int
      */
     public int size()
