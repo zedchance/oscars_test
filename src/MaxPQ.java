@@ -6,6 +6,7 @@ public class MaxPQ<Key extends Comparable<Key>>
 {
     private Key[] pq;   // heap-ordered complete binary tree
     private int n = 0;  // pq[0] is unused, heap uses pq[1..n]
+    // testing a change
 
     /**
      * Create new empty max priority queue.
