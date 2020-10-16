@@ -18,6 +18,7 @@ public class MaxPQ<Key extends Comparable<Key>>
     {
         pq = (Key[]) new Comparable[max + 1];
     }
+    // a different change
 
     /**
      * Creates new max priority queue from existing array.
