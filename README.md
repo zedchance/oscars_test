@@ -18,8 +18,8 @@ For example:
 - Explain and document obstacles encountered during the project and how those obstacles were handled
     - I was thinking for this we could use the GitHub issues system
 
-[] Checkbox?
+- [] Checkbox?
 
-[ ] Yeah?
+- [ ] Yeah?
 
-[x] Completed?
+- [x] Completed?
