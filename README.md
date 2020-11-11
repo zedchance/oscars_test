@@ -17,3 +17,9 @@ For example:
     - JUnit can be used for unit tests, check out the file `src/MaxPQTest.java`
 - Explain and document obstacles encountered during the project and how those obstacles were handled
     - I was thinking for this we could use the GitHub issues system
+
+[] Checkbox?
+
+[ ] Yeah?
+
+[x] Completed?
